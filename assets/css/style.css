@@ -193,20 +193,21 @@ p img {
 		width: auto;
 	}
   	.container {
-  		max-width: 640px;
+  	  		width:100%;
 	}
-  	.container #bodyconent {
-		width: 550px;
+  	.container #bodycontent {
+		/*width: 550px;*/
+		width: 100%;
   	}
   	.container #leftcolumn {
   		float: left;
-  		width: 500px;
+  		width: auto;
 
   	}
   	 		
 	.container #rightcolumn {
 		float: left;
-		width: 500px;
+		width: auto;
 		margin-left: 25px;
 
 	}
@@ -233,9 +234,19 @@ p img {
   	.container {
   		width: auto;
 	}
-  	.container #bodyconent {
+  	.container #bodycontent {
 		width: 100%;
   	}
+  	.container #rightcolumn {
+		float: right;
+		width: auto;
+		margin-left: 25px;
+	}
+	.container #leftcolumn {
+		float: left;
+		width: 50%;
+		margin-left: 25px;
+	}
 }
 
  @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -246,22 +257,22 @@ p img {
 		width: auto;
 	}
   	.container {
-  		width: 768px;
+  		width: auto;
 	}
-  	.container #bodyconent {
-		width: 650px;
+  	.container #bodycontent {
+		width: 100%;
   	}
   	.bottom{
 		width:auto;
 	}
 	.container #rightcolumn {
 		float: left;
-		width: 650px;
+		width: auto;
 		margin-left: 25px;
 	}
 	.container #leftcolumn {
 		float: left;
-		width: 650px;
+		width: auto;
 		margin-left: 25px;
 	}
 	
